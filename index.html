@@ -4,14 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Top trips</title>
     <link href="./styles/tailwind/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!--! header start -->
-    <header>
-        <nav></nav>
+    <header class="pt-[43px]">
+        <nav class="container px-32 flex justify-between  items-center">
+            <!-- logo -->
+            <div class="left__logo">
+                <a href="./index.html">
+                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84" />
+                        <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3" />
+                    </svg>
+                </a>
+            </div>
+            <!-- navigation and ul and buttons-->
+            <div class="right__navigation">
+                <ul class="flex items-center gap-[34px] ">
+
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black ">Home</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./"
+                            class="text-[#B8BECD] hover:text-black ">Destinations</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black">About</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black ">Partner</a>
+                    </li>
+
+                    <button
+                        class=" bg-transparent border border-[#FB8F1D]  text-[#FB8F1D] rounded-md w-[132px] h-[44px] hover:bg-[#FB8F1D] hover:text-white transition duration-500 ease-in-out">Login</button>
+                    <button
+                        class=" bg-[#FB8F1D] text-white rounded-md w-[132px] h-[44px] hover:bg-transparent border border-[#FB8F1D] hover:text-[#FB8F1D]  transition duration-500 ease-in-out">Register</button>
+
+                </ul>
+            </div>
+        </nav>
         <!--? showcase -->
         <div></div>
     </header>
