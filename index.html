@@ -1,30 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Companiy</title>
     <link rel="stylesheet" href="./styles/tailwind/output.css">
 </head>
-<body>
-    
-    <header>
-        <nav class="container mx-xl m-auto flex justify-between items-center h-[100px]">
-            <div class="left-navigation">
-                <img src="./assets/img/logo.svg" alt="">
-            </div>
-            <div class="right-navigation">
-                <ul class="flex items-center gap-[30px]">
-                    <li class="hover:cursor-pointer">Home</li>
-                    <li class="text-[#B8BECD] hover:cursor-pointer">Destinations</li>
-                    <li class="text-[#B8BECD] hover:cursor-pointer">About</li>
-                    <li class="text-[#B8BECD] hover:cursor-pointer">Partner</li> 
-                    <li class="text-[#FB8F1D] hover:cursor-pointer w-[132px]  h-[44px] border-solid border-2 border-[#FB8F1D] rounded-lg flex items-center justify-center">Login</li>
-                    <li class="text-white w-[132px]  h-[44px] border-solid border-2 border-[#FB8F1D] rounded-lg flex items-center justify-center bg-[#FB8F1D]">Register</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
+<body>
+
+    <!-- header -->
+    <header>
+        <nav></nav>
+        <!-- showcase -->
+        <div class="container mx-auto flex items-center justify-center h-full gap-[400px] my-16">
+            <div>
+                <div class="title font-inter">
+                    <h1 class="text-7xl  font-normal text-[#202336] w-[400px]">
+                        Explore and
+                        Travel
+                    </h1>
+                    <h4 class="text-4xl mt-[74px] text-[#202336] font-normal">Holiday finder</h4>
+
+                </div>
+                <div class="forms mt-5  flex flex-col">
+                    <div class="flex gap-[30px] ">
+                        <select name="Loacation" id=""
+                            class="w-[220px] h-[52px] p-3 rounded-[6px] border-solid bg-transparent border-2">
+                            <option value="Location" class="w-[220px] h-[52px] p-3 rounded-[6px] ">Location</option>
+                            <option value="Tashkent" class="w-[220px] h-[52px]  p-3 rounded-[6px]">Tashkent</option>
+                            <option value="Andijan" class="w-[220px] h-[52px]  p-3 rounded-[6px]">Andijan</option>
+                        </select>
+                        <select name="Activity" id=""
+                            class="w-[220px] h-[52px] p-3 rounded-[6px] border-solid bg-transparent border-2">
+                            <option value="Activity" class="w-[220px] h-[52px]  p-3rounded-[6px]">Activity</option>
+                            <option value="1" class="w-[220px] h-[52px]  p-3rounded-[6px]">1</option>
+                            <option value="2" class="w-[220px] h-[52px] p-3rounded-[6px] ">1</option>
+                        </select>
+                    </div>
+                    <div class="flex gap-[30px] mt-6">
+                        <select name="Grade" id="" class="w-[220px] h-[52px] p-3 rounded-[6px] border-solid bg-transparent border-2">
+                            <option value="Grade">Grade</option>
+                            <option value="1">1</option>
+                            <option value="2">1</option>
+                        </select>
+                        <select name="Date" id="" class="w-[220px] h-[52px] p-3 rounded-[6px] border-solid bg-transparent border-2">
+                            <option value="Date">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">1</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+
+            <img src="./assets//img/thousand-01 1.png  " alt="" class="w-[600px] h-[600px]">
+        </div>
+        </div>
+        </div>
+    </header>
+    <!-- header end  -->
+    <main>
+        <!-- explare section -->
+        <section>
+
+        </section>
+        <!-- Featured destination -->
+        <section class=" container mx-auto flex items-center justify-center h-full gap-48 my-16">
+            <div>
+                <img src="./assets/img//Thousand-02 1.png" class="w-[659px] h-[534px]" alt="" />
+            </div>
+            <div>
+                <p class="text-4xl font-bold">A new way to explore the world</p>
+                <p class="text-[#7D7987] text-sm max-w-md my-10 font-light  xl:max-w-xl xl:text-lg">
+                    For decades travellers have reached for Lonely Planet books when looking to plan and execute their
+                    perfect
+                    trip, but now, they can also let Lonely Planet Experiences lead the way
+                </p>
+                <button
+                    class="bg-orange-400 text-white py-3 px-10 rounded-2xl hover:bg-orange-500 hover:cursor-pointer">Learn
+                    more</button>
+            </div>
+        </section>
+        <!-- guides by thousand sunny -->
+        <section></section>
+        <!-- Testimotions -->
+        <section></section>
+        <!-- tradings stories -->
+        <section></section>
+    </main>
+    <!-- footer start -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
