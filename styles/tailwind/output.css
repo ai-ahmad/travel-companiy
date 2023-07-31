@@ -643,10 +643,6 @@ video {
   display: grid;
 }
 
-.h-\[44px\] {
-  height: 44px;
-}
-
 .h-\[52px\] {
   height: 52px;
 }
@@ -667,6 +663,10 @@ video {
   height: 100%;
 }
 
+.h-\[44px\] {
+  height: 44px;
+}
+
 .h-\[100px\] {
   height: 100px;
 }
@@ -677,10 +677,6 @@ video {
 
 .h-\[50px\] {
   height: 50px;
-}
-
-.w-\[132px\] {
-  width: 132px;
 }
 
 .w-\[180px\] {
@@ -701,6 +697,10 @@ video {
 
 .w-\[659px\] {
   width: 659px;
+}
+
+.w-\[132px\] {
+  width: 132px;
 }
 
 .w-full {
@@ -739,12 +739,20 @@ video {
   gap: 30px;
 }
 
+.gap-\[400px\] {
+  gap: 400px;
+}
+
 .gap-\[34px\] {
   gap: 34px;
 }
 
-.gap-\[400px\] {
-  gap: 400px;
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[fu\] {
+  gap: fu;
 }
 
 .gap-8 {
@@ -775,12 +783,12 @@ video {
   border-top-right-radius: 0.375rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-solid {
@@ -823,6 +831,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .px-4 {
@@ -875,6 +888,11 @@ video {
   color: rgb(125 121 135 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-\[\#B8BECD\] {
   --tw-text-opacity: 1;
   color: rgb(184 190 205 / var(--tw-text-opacity));
@@ -883,11 +901,6 @@ video {
 .text-\[\#FB8F1D\] {
   --tw-text-opacity: 1;
   color: rgb(251 143 29 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-yellow-400 {
@@ -919,14 +932,14 @@ video {
   cursor: pointer;
 }
 
-.hover\:bg-\[\#FB8F1D\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 143 29 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-orange-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#FB8F1D\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 143 29 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-transparent:hover {
