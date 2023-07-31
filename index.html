@@ -12,9 +12,40 @@
 
     <!-- header -->
     <header>
-        <nav></nav>
+        <nav class="container mx-auto flex items-center justify-between  h-[50px] gap-48 my-16">
+            <!-- logo -->
+            <div class="left__logo">
+                <a href="./index.html">
+                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84" />
+                        <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3" />
+                    </svg>
+                </a>
+            </div>
+            <!-- navigation and ul and buttons-->
+            <div class="right__navigation">
+                <ul class="flex items-center gap-[34px] ">
+
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black ">Home</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./"
+                            class="text-[#B8BECD] hover:text-black ">Destinations</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black">About</a>
+                    </li>
+                    <li class="active:animate-bounce"><a href="./" class="text-[#B8BECD] hover:text-black ">Partner</a>
+                    </li>
+
+                    <button
+                        class=" bg-transparent border border-[#FB8F1D]  text-[#FB8F1D] rounded-md w-[132px] h-[44px] hover:bg-[#FB8F1D] hover:text-white transition duration-500 ease-in-out">Login</button>
+                    <button
+                        class=" bg-[#FB8F1D] text-white rounded-md w-[132px] h-[44px] hover:bg-transparent border border-[#FB8F1D] hover:text-[#FB8F1D]  transition duration-500 ease-in-out">Register</button>
+
+                </ul>
+            </div>
+        </nav>
         <!-- showcase -->
-        <div class="container mx-auto flex items-center justify-center h-full gap-[400px] my-16">
+        <div class="container mx-auto flex items-center justify-between h-full gap-[400px] my-16">
             <div>
                 <div class="title font-inter">
                     <h1 class="text-7xl  font-normal text-[#202336] w-[400px]">
@@ -65,11 +96,7 @@
     <!-- header end  -->
     <main>
         <!-- explare section -->
-        <section>
-
-        </section>
-        <!-- Featured destination -->
-        <section class=" container mx-auto flex items-center justify-center h-full gap-48 my-16">
+        <section class=" container mx-auto flex items-center  h-full justify-between my-16">
             <div>
                 <img src="./assets/img//Thousand-02 1.png" class="w-[659px] h-[534px]" alt="" />
             </div>
@@ -83,6 +110,43 @@
                 <button
                     class="bg-orange-400 text-white py-3 px-10 rounded-2xl hover:bg-orange-500 hover:cursor-pointer">Learn
                     more</button>
+            </div>
+        </section>
+        <!-- Featured destination -->
+        <section class="container mx-auto px-4 xl:px-3 xl:max-w-8xl mt-8">
+            <div class="flex flex-col items-center sm:flex-row sm:items-center justify-between pb-8">
+                <h1 class="text-4xl font-bold font-serif">Featured destinations</h1>
+                <a href="#" class="text-yellow-400">View all &gt;</a>
+            </div>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:gap-4">
+                <div class="rounded-lg overflow-hidden relative">
+                    <img src="./assets/img/image.png" alt="Raja Ampat Indonesia" class="w-full">
+                    <div class="absolute bottom-0 bg-slate-50 rounded-tr-md xl:w-28 xl:h-14">
+                        <p class="mt-2 text-sm">Raja Ampat</p>
+                        <p class="text-sm">Indonesia</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden relative">
+                    <img src="./assets/img/Screen Shot 2020-02-14 at 4.36 1.png" alt="Fanjingshan China" class="w-full">
+                    <div class="absolute bottom-0 bg-slate-50 rounded-tr-md xl:w-28 xl:h-14">
+                        <p class="mt-2 text-sm">Fanjingshan</p>
+                        <p class="text-sm">China</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden relative">
+                    <img src="./assets/img/Screen Shot 2020-02-15 at 11.04 1 (1).png" alt="Vevey Switzerland" class="w-full">
+                    <div class="absolute bottom-0 bg-slate-50 rounded-tr-md xl:w-28 xl:h-14">
+                        <p class="mt-2 text-sm">Vevey</p>
+                        <p class="text-sm">Switzerland</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden relative">
+                    <img src="./assets/img/pustiniya.png" alt="Skadar Montenegro" class="w-full">
+                    <div class="absolute bottom-0 bg-slate-50 rounded-tr-md xl:w-28 xl:h-14">
+                        <p class="mt-2 text-sm">Skadar</p>
+                        <p class="text-sm">Montenegro</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- guides by thousand sunny -->
